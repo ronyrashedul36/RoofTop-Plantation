@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DragDrop">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ff22"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:id="@+id/image_view"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/f1" />
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:id="@+id/image_view1"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/f2" />
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:id="@+id/image_view22"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/f3" />
+        <ImageView
+            android:id="@+id/image_view33"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/f4" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/yellowLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/right_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:orientation="vertical" />
+    </LinearLayout>
+</LinearLayout>

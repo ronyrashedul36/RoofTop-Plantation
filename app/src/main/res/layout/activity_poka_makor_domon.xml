@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:weightSum="10"
+    tools:context=".PokaMakorDomon">
+
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:textSize="34sp"
+            android:text="পোকামাকড় দমন"
+            android:id="@+id/textGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </RelativeLayout>
+
+    <GridLayout
+        android:columnCount="3"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <!--        Row 1-->
+
+        <!--        column 1-->
+        <!--        column 2-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <Button
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:id="@+id/buttonId4_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="জাব পোকা"
+                android:textAlignment="center"
+                android:textSize="13sp"
+                android:textStyle="bold"></Button>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+
+            <Button
+                android:id="@+id/buttonId4_1_2"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="ছাতরা পোকা"
+                android:textAlignment="center"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--        Row 2-->
+
+        <!--        column 1-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+
+            <Button
+                android:id="@+id/buttonId4_1_3"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="থিপস"
+                android:textAlignment="center"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+
+
+        </androidx.cardview.widget.CardView>
+        <!--        column 2-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+            <Button
+                android:id="@+id/buttonId4_1_4"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="ফলের মাছি পোকা"
+                android:textAlignment="center"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--        Row 3-->
+
+        <!--        column 1-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+
+            <Button
+                android:id="@+id/buttonId4_1_5"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="কাঁঠালে পোকা"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+
+
+        </androidx.cardview.widget.CardView>
+        <!--        column 2-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+            <Button
+                android:id="@+id/buttonId4_1_6"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="জ্যাসিড পোকা"
+                android:textAlignment="center"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+
+            <Button
+                android:id="@+id/buttonId4_1_7"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="লাল মাকড়"
+                android:textAlignment="center"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+        </androidx.cardview.widget.CardView>
+
+        <!--        Row 3-->
+
+        <!--        column 1-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+
+            <Button
+                android:id="@+id/buttonId4_1_8"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="পাতা ছিদ্রকারী পোকা"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+        </androidx.cardview.widget.CardView>
+        <!--        column 2-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+            <Button
+                android:id="@+id/buttonId4_1_9"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="কাটুই পোকা"
+                android:textAlignment="center"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</LinearLayout>

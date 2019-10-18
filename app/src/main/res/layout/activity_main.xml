@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:textSize="34sp"
+            android:text="ছাদ কৃষি"
+            android:id="@+id/textGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </RelativeLayout>
+
+    <GridLayout
+        android:columnCount="2"
+        android:rowCount="4"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+<!--        Row 1-->
+
+<!--        column 1-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/one"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"></ImageView>
+
+                <Button
+                    android:id="@+id/buttonId1"
+                    android:text="ছাদ বাগান তৈরি"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></Button>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--        column 2-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/two"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"></ImageView>
+
+                <Button
+                    android:id="@+id/buttonId2"
+                    android:text="ছাদ বাগান মডেল"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></Button>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <!--        Row 2-->
+
+        <!--        column 1-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/three"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"></ImageView>
+
+                <Button
+                    android:id="@+id/buttonId3"
+                    android:text="বাগান ডিজাইন"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></Button>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--        column 2-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/four"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"></ImageView>
+
+                <Button
+                    android:id="@+id/buttonId4"
+                    android:text="রোগ ও পোকামাকড় দমন"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></Button>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--        Row 3-->
+
+        <!--        column 1-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/five"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"></ImageView>
+
+                <Button
+                    android:id="@+id/buttonId5"
+                    android:text="জৈব কৃষি"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></Button>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--        column 2-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/six"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"></ImageView>
+
+                <Button
+                    android:id="@+id/buttonId6"
+                    android:text="ডেভলপার পরিচিতি"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></Button>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/search"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"></ImageView>
+
+                <Button
+                    android:id="@+id/buttonId7"
+                    android:text="নার্সারি অনুসন্ধান"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></Button>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>
